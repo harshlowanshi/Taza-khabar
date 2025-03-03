@@ -39,7 +39,7 @@ getNews("international")
 value={search}
 onChange={(e)=>setsearch(e.target.value)}
  placeholder='search any news'
-  className='p-3 bg-whit  border border-gray-500 rounded-md w-full md:w-[70%] mr-2 focus:outline-none  ' />
+  className='p-3 bg-whit text-black  border border-gray-500 rounded-md w-full md:w-[70%] mr-2 focus:outline-none  ' />
 
 <button className=' my-2 font-bold text-white bg-green-500 rounded-md w-full md:w-1/4 py-3 hover:bg-green-600 '>submit</button>
 </form>

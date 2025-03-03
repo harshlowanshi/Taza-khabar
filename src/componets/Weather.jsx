@@ -50,7 +50,7 @@ const handleSearch =(city)=>{
    }}
    onChange={(e)=>setfind(e.target.value)}
    value={find}
-    className='py-2 px-2 rounded-md w-[70%] focus:outline-none'
+    className='py-2 px-2 rounded-md text-black w-[70%] focus:outline-none'
     placeholder='search'/>
 
     <button onClick={()=>handleSearch(find)}
